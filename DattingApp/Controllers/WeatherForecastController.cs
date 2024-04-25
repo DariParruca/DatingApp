@@ -1,10 +1,10 @@
+using DatingApp.Controllers;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DattingApp.Controllers
 {
-    [ApiController]
-    [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+
+    public class WeatherForecastController : BaseApiController
     {
         private static readonly string[] Summaries = new[]
         {
